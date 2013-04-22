@@ -17,7 +17,8 @@ I recommend using lighttpd:
 lighttpd running as an normal www-data user. there is only 1 simple PHP controller file to be placed in www/ folder:
     sudo mkdir /var/www/foldername/ && sudo cp /opt/raspberry-simplicity-api/www/public/index.php /var/www/foldername/
 
-This taks the variable $_REQUEST['t'] and put the command into a processing queue: /opt/raspberry-simplicity-api/queue/lighttpd.queue
+This taks the variable $_REQUEST['t'] and put the command into a processing queue:
+    /opt/raspberry-simplicity-api/queue/lighttpd.queue
 
 A PHP processiong script is running about every second and process this queue:
 
