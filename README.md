@@ -22,7 +22,7 @@ This taks the variable $_REQUEST['t'] and put the command into a processing queu
 
     /opt/raspberry-simplicity-api/queue/lighttpd.queue
 
-A PHP processiong script is running about every second and process this queue:
+A PHP processing script is running about every second and process this queue:
 
 Add to crontab:
 
