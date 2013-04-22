@@ -1,7 +1,7 @@
 raspberry-simplicity-api
 ========================
 
-Remote Raspberry aPI - Simplicity
+Remote Raspberry aPI - PHP Simplicity
 
 This is intendtent to be the world most simple Raspberry PI Remote API. It's NOT secure! 'foldername' is the only thing that keep nobody away from controlling your PI.
 
@@ -32,7 +32,7 @@ Start manually, at first run:
 
     ~/bin/loop.sh php ~/bin/lighttpd_process.php &> /dev/null &
 
-In this process script you can add what you want to run by the pi user or sudo at spesific events:
+In this process script you can add what you want to run by the pi user or sudo at spesific events through PHP CLI:
 
     if($t == 'reboot') {
         exec('sudo reboot');
